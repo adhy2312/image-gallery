@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo" class="logo" />
+    <h1 class="title">Image Gallery</h1>
+  </header>
+
+  <div class="gallery-container">
+    <div class="main-image-frame">
+      <img id="mainImage" src="images/1.jpg" alt="Selected" />
+    </div>
+    <div class="sidebar">
+      <div class="thumbnails" id="thumbnailContainer"></div>
+      <div class="buttons">
+        <button id="prevBtn">⬅ Back</button>
+        <button id="nextBtn">Next ➡</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
